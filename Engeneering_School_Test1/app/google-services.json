@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "171987747034",
+    "firebase_url": "https://engineeringschool-4cea4.firebaseio.com",
+    "project_id": "engineeringschool-4cea4",
+    "storage_bucket": "engineeringschool-4cea4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:171987747034:android:062a39c5bf0c3a8209e5e3",
+        "android_client_info": {
+          "package_name": "com.example.engeneering_school_test1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "171987747034-vht6tmnvrlmb2kbakuddm666j7umbcrp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.engeneering_school_test1",
+            "certificate_hash": "1cd88bfdf6d604fef43f539c847179d2812ae4b5"
+          }
+        },
+        {
+          "client_id": "171987747034-fno4sm7nmd19nrqkj6viv0rme1epfr9j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUvyehMGkcnxyrPlH8eBqcSitxpWA4Sjc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "171987747034-fno4sm7nmd19nrqkj6viv0rme1epfr9j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

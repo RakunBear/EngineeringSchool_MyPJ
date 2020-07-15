@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    tools:context=".MainLobbyActivity">
+
+    <TextView
+        android:id="@+id/mainTitle1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginLeft="20px"
+        android:layout_marginRight="20px"
+        android:layout_marginTop="20px"
+        android:layout_marginBottom="40px"
+        android:background="#B3CFE9"
+        android:text="EngineeringSchool"
+        android:textColor="#161010"
+        android:textSize="104px" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/mainTableLayout">
+
+            <TextView
+                android:id="@+id/subTitle1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginLeft="20px"
+                android:layout_marginTop="20px"
+                android:text="연습"
+                android:textColor="#161010"
+                android:textSize="52px" />
+            <TableRow
+                android:gravity="center">
+                <Button
+                    android:id="@+id/btn1_1"
+                    android:onClick="ButtonFunc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10px"
+                    android:textAllCaps="false"
+                    android:text="TextView" />
+                <Button
+                    android:id="@+id/btn1_2"
+                    android:onClick="ButtonFunc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10px"
+                    android:textAllCaps="false"
+                    android:text="RelativeLayout" />
+
+                <Button
+                    android:id="@+id/btn1_3"
+                    android:onClick="ButtonFunc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10px"
+                    android:textAllCaps="false"
+                    android:text="FrameLayout" />
+            </TableRow>
+            <TableRow
+                android:gravity="center">
+                <Button
+                    android:id="@+id/btn1_4"
+                    android:onClick="ButtonFunc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10px"
+                    android:textAllCaps="false"
+                    android:text="LinearLayout" />
+                <Button
+                    android:id="@+id/btn1_5"
+                    android:onClick="ButtonFunc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10px"
+                    android:textAllCaps="false"
+                    android:text="CountActivity" />
+                <Button
+                    android:id="@+id/btn1_6"
+                    android:onClick="ButtonFunc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10px"
+                    android:textAllCaps="false"
+                    android:text="WebView" />
+            </TableRow>
+
+            <TableRow
+                android:gravity="center">
+                <Button
+                    android:id="@+id/btn1_7"
+                    android:onClick="ButtonFunc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10px"
+                    android:textAllCaps="false"
+                    android:text="VideoView" />
+                <Button
+                    android:id="@+id/btn1_8"
+                    android:onClick="ButtonFunc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10px"
+                    android:textAllCaps="false"
+                    android:text="RadioView" />
+                <Button
+                    android:id="@+id/btn1_9"
+                    android:onClick="ButtonFunc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10px"
+                    android:textAllCaps="false"
+                    android:text="ProgressBar" />
+
+            </TableRow>
+
+            <TableRow
+                android:gravity="center">
+
+                <Button
+
+                    android:onClick="ButtonFunc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10px"
+                    android:textAllCaps="false"
+                    android:text="" />
+                <Button
+
+                    android:onClick="ButtonFunc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10px"
+                    android:textAllCaps="false"
+                    android:text="" />
+                <Button
+
+                    android:onClick="ButtonFunc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10px"
+                    android:textAllCaps="false"
+                    android:text="" />
+            </TableRow>
+            <TableRow
+                android:gravity="center">
+
+                <Button
+
+                    android:onClick="ButtonFunc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10px"
+                    android:textAllCaps="false"
+                    android:text="" />
+                <Button
+
+                    android:onClick="ButtonFunc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10px"
+                    android:textAllCaps="false"
+                    android:text="" />
+                <Button
+
+                    android:onClick="ButtonFunc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10px"
+                    android:textAllCaps="false"
+                    android:text="" />
+            </TableRow>
+            <TableRow
+                android:gravity="center">
+
+                <Button
+
+                    android:onClick="ButtonFunc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10px"
+                    android:textAllCaps="false"
+                    android:text="" />
+                <Button
+
+                    android:onClick="ButtonFunc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10px"
+                    android:textAllCaps="false"
+                    android:text="" />
+                <Button
+
+                    android:onClick="ButtonFunc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10px"
+                    android:textAllCaps="false"
+                    android:text="" />
+            </TableRow>
+
+            <TextView
+                android:id="@+id/subTitle2"
+                android:onClick="ButtonFunc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginLeft="20px"
+                android:layout_marginTop="20px"
+                android:textAllCaps="false"
+                android:text="과제"
+                android:textColor="#161010"
+                android:textSize="52px" />
+            <TableRow
+                android:gravity="center">
+                <Button
+                    android:id="@+id/btn2_1"
+                    android:onClick="ButtonFunc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10px"
+                    android:textAllCaps="false"
+                    android:text="계산기" />
+                <Button
+
+                    android:onClick="ButtonFunc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10px"
+                    android:textAllCaps="false"
+                    android:text="" />
+                <Button
+
+                    android:onClick="ButtonFunc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10px"
+                    android:textAllCaps="false"
+                    android:text="" />
+            </TableRow>
+
+            <TableRow
+                android:gravity="center">
+
+                <Button
+
+                    android:onClick="ButtonFunc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10px"
+                    android:textAllCaps="false"
+                    android:text="" />
+                <Button
+
+                    android:onClick="ButtonFunc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10px"
+                    android:textAllCaps="false"
+                    android:text="" />
+                <Button
+
+                    android:onClick="ButtonFunc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10px"
+                    android:textAllCaps="false"
+                    android:text="" />
+            </TableRow>
+
+            <TableRow
+                android:gravity="center">
+
+                <Button
+
+                    android:onClick="ButtonFunc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10px"
+                    android:textAllCaps="false"
+                    android:text="" />
+                <Button
+
+                    android:onClick="ButtonFunc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10px"
+                    android:textAllCaps="false"
+                    android:text="" />
+                <Button
+
+                    android:onClick="ButtonFunc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10px"
+                    android:textAllCaps="false"
+                    android:text="" />
+            </TableRow>
+
+        </TableLayout>
+    </ScrollView>
+</LinearLayout>

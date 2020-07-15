@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10sp"
+    android:orientation="vertical"
+    tools:context=".RadioActivity">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#EF34"
+            android:text="라디오 버튼"
+            android:textColor="#000000"
+            android:textSize="20sp"/>
+        <RadioButton
+            android:id="@+id/rBtn_rice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="버튼_밥"/>
+        <RadioButton
+            android:id="@+id/rBtn_bread"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="버튼_빵"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#EF34"
+            android:text="라디오 그룹"
+            android:textColor="#000000"
+            android:textSize="20sp"/>
+        <RadioGroup
+            android:id="@+id/rGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rGroup_rice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="밥"/>
+            <RadioButton
+                android:id="@+id/rGroup_bread"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="빵"/>
+
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#EF34"
+            android:text="스위치"
+            android:textColor="#000000"
+            android:textSize="20sp"/>
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:showText="true"
+            android:switchPadding="10sp"
+            android:text="스위치"
+            android:textOn="On"
+            android:textOff="Off"
+            android:checked="false"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10sp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#EF34"
+            android:text="체크박스"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/checkBox1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CheckBox" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
