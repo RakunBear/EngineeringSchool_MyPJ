@@ -1,32 +1,25 @@
-package com.example.engeneering_school_test1;
+package com.example.engeneering_school_test1.Main;
 
 import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.os.Debug;
 import android.util.Log;
-import android.view.KeyEvent;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.google.android.gms.auth.api.Auth;
+import com.example.engeneering_school_test1.R;
 import com.google.android.gms.auth.api.signin.GoogleSignIn;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
 import com.google.android.gms.auth.api.signin.GoogleSignInClient;
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
-import com.google.android.gms.auth.api.signin.GoogleSignInResult;
-import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.SignInButton;
 import com.google.android.gms.common.api.ApiException;
-import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
-import com.google.android.material.snackbar.Snackbar;
 import com.google.firebase.auth.AuthCredential;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
@@ -83,7 +76,7 @@ public class LoginActivity extends AppCompatActivity {//implements GoogleApiClie
     }
 
     private void LoginBasic(String id, String pw) {
-        if (id.equals("admin") || pw.equals("1234")) {
+        if (id.equals("") || pw.equals("")) {
             Toast.makeText(LoginActivity.this, "Login Success", Toast.LENGTH_SHORT).show();
             Intent intent = new Intent(getApplicationContext(), MainLobbyActivity.class);
             startActivity(intent);

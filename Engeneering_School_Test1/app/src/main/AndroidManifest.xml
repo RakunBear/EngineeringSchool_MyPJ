@@ -9,19 +9,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ProgressBarActivity"></activity>
+        <activity android:name=".CallBookActivity"></activity>
+        <activity android:name=".ListViewActivity" />
+        <activity android:name=".LifeCycleActivity" />
+        <activity android:name=".ProgressBarActivity" />
         <activity android:name=".RadioActivity" />
         <activity android:name=".VideoActivity" />
         <activity android:name=".WebActivity" />
         <activity android:name=".LinearActivity" />
-        <activity android:name=".LoginActivity" />
+        <activity android:name=".Main.LoginActivity" />
         <activity android:name=".CountActivity" />
         <activity android:name=".FrameActivity" />
         <activity android:name=".RelativeActivity" />
         <activity android:name=".TextViewActivity" />
         <activity android:name=".CaculatorActivity" />
-        <activity android:name=".MainLobbyActivity" />
-        <activity android:name=".SplashActivity">
+        <activity android:name=".Main.MainLobbyActivity" />
+        <activity android:name=".Main.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

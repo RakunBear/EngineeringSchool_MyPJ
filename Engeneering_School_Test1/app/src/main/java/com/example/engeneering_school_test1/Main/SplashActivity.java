@@ -1,10 +1,13 @@
-package com.example.engeneering_school_test1;
+package com.example.engeneering_school_test1.Main;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+
+import com.example.engeneering_school_test1.Main.LoginActivity;
+import com.example.engeneering_school_test1.R;
 
 public class SplashActivity extends AppCompatActivity {
 

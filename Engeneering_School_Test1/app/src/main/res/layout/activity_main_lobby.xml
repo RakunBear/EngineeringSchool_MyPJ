@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="#FFFFFF"
-    tools:context=".MainLobbyActivity">
+    tools:context=".Main.MainLobbyActivity">
 
     <TextView
         android:id="@+id/mainTitle1"
@@ -130,21 +130,21 @@
                 android:gravity="center">
 
                 <Button
-
+                    android:id="@+id/btn1_10"
                     android:onClick="ButtonFunc"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="10px"
                     android:textAllCaps="false"
-                    android:text="" />
+                    android:text="LifeCycle" />
                 <Button
-
+                    android:id="@+id/btn1_11"
                     android:onClick="ButtonFunc"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="10px"
                     android:textAllCaps="false"
-                    android:text="" />
+                    android:text="ListView" />
                 <Button
 
                     android:onClick="ButtonFunc"
@@ -234,13 +234,13 @@
                     android:textAllCaps="false"
                     android:text="계산기" />
                 <Button
-
+                    android:id="@+id/btn2_2"
                     android:onClick="ButtonFunc"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="10px"
                     android:textAllCaps="false"
-                    android:text="" />
+                    android:text="전화번호부" />
                 <Button
 
                     android:onClick="ButtonFunc"

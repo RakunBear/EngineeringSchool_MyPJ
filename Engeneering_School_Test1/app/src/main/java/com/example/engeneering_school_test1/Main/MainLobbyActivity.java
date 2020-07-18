@@ -1,4 +1,4 @@
-package com.example.engeneering_school_test1;
+package com.example.engeneering_school_test1.Main;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -16,6 +16,21 @@ import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TableLayout;
 import android.widget.TextView;
+
+import com.example.engeneering_school_test1.CaculatorActivity;
+import com.example.engeneering_school_test1.CallBookActivity;
+import com.example.engeneering_school_test1.CountActivity;
+import com.example.engeneering_school_test1.FrameActivity;
+import com.example.engeneering_school_test1.LifeCycleActivity;
+import com.example.engeneering_school_test1.LinearActivity;
+import com.example.engeneering_school_test1.ListViewActivity;
+import com.example.engeneering_school_test1.ProgressBarActivity;
+import com.example.engeneering_school_test1.R;
+import com.example.engeneering_school_test1.RadioActivity;
+import com.example.engeneering_school_test1.RelativeActivity;
+import com.example.engeneering_school_test1.TextViewActivity;
+import com.example.engeneering_school_test1.VideoActivity;
+import com.example.engeneering_school_test1.WebActivity;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -94,9 +109,21 @@ public class MainLobbyActivity extends AppCompatActivity {
                 intent = new Intent(context, ProgressBarActivity.class);
                 startActivity(intent);
                 break;
+            case R.id.btn1_10 :
+                intent = new Intent(context, LifeCycleActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.btn1_11 :
+                intent = new Intent(context, ListViewActivity.class);
+                startActivity(intent);
+                break;
             // 과제
             case R.id.btn2_1 :
                 intent = new Intent(context, CaculatorActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.btn2_2 :
+                intent = new Intent(context, CallBookActivity.class);
                 startActivity(intent);
                 break;
         }
